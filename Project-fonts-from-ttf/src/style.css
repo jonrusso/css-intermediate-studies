@@ -1,0 +1,26 @@
+@font-face {
+    font-family:'lemon-milk';
+    src: url(assets/LEMONMILK-Regular.otf), 
+    url(assets/LEMONMILK-Medium.otf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+main .fonts {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+    border: 3px solid #141416;
+    border-radius: 20px;
+    font-family: 'lemon-milk';
+}
+
+
+
